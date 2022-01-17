@@ -11,5 +11,10 @@ namespace TestApp.Controllers
     [ApiController]
     public class PotatoController : ControllerBase
     {
+        [HttpGet]
+        public ActionResult<String> Get()
+        {
+            return "Hi";
+        }
     }
 }
