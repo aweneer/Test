@@ -15,6 +15,12 @@ namespace TestApp.Controllers
         public IActionResult Delete(int id)
         {
             return Ok();
+
+        }
+        [HttpGet]
+        public ActionResult<String> Get()
+        {
+            return "Hi";
         }
     }
 }
