@@ -11,5 +11,10 @@ namespace TestApp.Controllers
     [ApiController]
     public class PotatoController : ControllerBase
     {
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            return Ok();
+        }
     }
 }
