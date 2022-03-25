@@ -43,6 +43,8 @@ namespace TestApp
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestApp v1"));
             }
+			
+			Console.WriteLine("Test 3");
 
             app.UseHttpsRedirection();
 
