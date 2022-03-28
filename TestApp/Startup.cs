@@ -44,7 +44,7 @@ namespace TestApp
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestApp v1"));
             }
 			
-			Console.WriteLine("Test 3sadwda");
+			Console.WriteLine("Test 3sadwadada");
 
             app.UseHttpsRedirection();
 
