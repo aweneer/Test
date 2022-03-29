@@ -4,3 +4,8 @@
 # .NET build folders
 bin/
 obj/
+
+
+*.bak
+
+.idea/
