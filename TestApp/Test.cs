@@ -13,11 +13,8 @@ namespace TestApp
 
             Console.WriteLine("notreally");
 
-<<<<<<< HEAD
-=======
 
             new Test();
->>>>>>> testbranch
         }
     }
 }
