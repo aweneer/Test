@@ -6,13 +6,13 @@ namespace TestApp
     {
         public void Tester()
         {
-
+<<<<<<< HEAD
             Console.WriteLine("Yoyy");
 
             Console.WriteLine("P");
-
+=======
             Console.WriteLine("notreally");
-
+>>>>>>> testbranch
         }
     }
 }
