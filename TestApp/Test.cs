@@ -6,7 +6,15 @@ namespace TestApp
     {
         public void Tester()
         {
+
+            Console.WriteLine("Yoyy");
+
+            Console.WriteLine("P");
+
             Console.WriteLine("notreally");
+
+
+            new Test();
         }
     }
 }
