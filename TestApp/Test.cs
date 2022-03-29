@@ -6,7 +6,7 @@ namespace TestApp
     {
         public void Tester()
         {
-            Console.WriteLine("YoLOLOL");
+            Console.WriteLine("notreally");
         }
     }
 }
