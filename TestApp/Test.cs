@@ -35,5 +35,10 @@ namespace TestApp
 			var A = "A";
 			return A;
 		}
+		
+		public bool B()
+		{
+			return (this.GetZero() == 0);
+		}
     }
 }
