@@ -41,5 +41,10 @@ namespace TestApp
 		{
 			return ( this.GetZero() == 0 && this.A().Equals( "A" ) );
 		}
+		
+		public bool isCorrectB()
+		{
+			return ( B() == true );
+		}
     }
 }
