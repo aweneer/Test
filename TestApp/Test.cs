@@ -20,7 +20,8 @@ namespace TestApp
 		
 		public int GetZero()
 		{
-			return 0;
+			var x = 1;
+			return (x-x);
 		}
     }
 }
