@@ -29,5 +29,10 @@ namespace TestApp
 			var ob = "offBranch";
 			return ob;
 		}
+		
+		public string A()
+		{
+			return "A";
+		}
     }
 }
