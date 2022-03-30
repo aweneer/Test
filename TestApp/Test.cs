@@ -26,7 +26,7 @@ namespace TestApp
 		
 		public string OffBranch()
 		{
-			var ob = "offbranch";
+			var ob = "offBranch";
 			return ob;
 		}
     }
