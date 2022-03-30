@@ -46,5 +46,10 @@ namespace TestApp
 		{
 			return ( B() == true );
 		}
+		
+		public bool PrintAll()
+		{
+			System.Console.WriteLine( $"{this.GetZero()} {this.OffBranch()} {this.A()} {this.B()} {this.isCorrectB()}" );
+		}
     }
 }
