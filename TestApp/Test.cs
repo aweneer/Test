@@ -44,7 +44,7 @@ namespace TestApp
 		
 		public bool isCorrectB()
 		{
-			return ( B() == true );
+			return ( this.B() == true );
 		}
     }
 }
