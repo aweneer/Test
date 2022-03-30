@@ -38,7 +38,7 @@ namespace TestApp
 		
 		public bool B()
 		{
-			return (this.GetZero() == 0);
+			return ( this.GetZero() == 0 && this.A().Equals( "A" ) );
 		}
     }
 }
