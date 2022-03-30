@@ -32,6 +32,7 @@ namespace TestApp
 		
 		public string A()
 		{
+			System.Console.WriteLine("A");
 			var A = "A";
 			return A;
 		}
