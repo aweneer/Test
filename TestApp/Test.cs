@@ -32,7 +32,8 @@ namespace TestApp
 		
 		public string A()
 		{
-			return "A";
+			var A = "A";
+			return A;
 		}
     }
 }
