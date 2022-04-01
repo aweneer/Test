@@ -13,7 +13,7 @@ namespace TestApp
 
             Console.WriteLine("notreally");
 			
-			
+			Console.WriteLine("TEST");
 
             new Test();
 
