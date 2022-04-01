@@ -14,6 +14,7 @@ namespace TestApp
         public static void Main(string[] args)
         {
             Console.WriteLine("lool");
+			Console.WriteLine("TEST");
             CreateHostBuilder(args).Build().Run();
         }
 
